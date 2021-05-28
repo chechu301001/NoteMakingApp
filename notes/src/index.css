@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+h1 {
+  display: block;
+  margin-top: 10px;
+  text-shadow: 3px 3px 5px #858484;
+  padding: 20px;
+  text-align: center;
+  background: cornflowerblue;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(244, 18, 252, 0.712));
+  color: white;
+  font-size: 40px;
+  box-shadow: 3px 3px 5px #858484;
+  text-transform: uppercase;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(94, 94, 94);
+  text-align: center;
+}
+.main-note {
+  width: 250px;
+  height: 27vh;
+  background-color: rgb(202, 229, 247);
+  box-shadow: 5px 8px 10px #ccc;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;  */
+  border-radius: 15px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+input {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 98%;
+  height: 30px;
+  border: none;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  color: black;
+  text-transform: capitalize;
+  box-shadow: 5px 4px 6px #8888;
+
+}
+textarea {
+  padding-left: 5px;
+  margin-top: 8px;
+  padding-top: 8px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  text-transform: capitalize;
+  height: 70px; 
+  border: none;
+  background:transparent;
+  font-size: 14px;
+  font-weight: 500;
+  width: 97%;
+  outline: none;
+}
+.plus-button {
+  float: right;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: rgb(221, 179, 245);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  margin: 16px;
+  float: left;
+}
+.note p {
+  font-weight: 600;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  text-transform: capitalize;
+  font-size: .9em;
+}
+.note h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+.btn {
+  position: relative;
+  width: 3em;
+}
+
+
+
+
